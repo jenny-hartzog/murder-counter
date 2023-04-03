@@ -1,0 +1,59 @@
+
+
+body {
+    background-image: url("https://debutart-static-v1.s3.amazonaws.com/projectitem/6/7/04ed3228a399eed9d931cf713c57dd65/4076_full-retina.jpg?1458126933");
+    background-size: cover;
+    color: white;
+    font-family:  Oxygen, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 5px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: black;
+    border: white 5px solid;
+    color: white;
+}
+
+#save-btn {
+    background: white;
+    border: black 5px solid;
+    color: black;
+}
+
+#save-el {
+    border: 4px black solid;
+    border-radius: 5px;
+    background: white;
+    color: red;
+    display: inline-block;
+    max-width: 100%;
+    padding: 3px;
+    text-align: center;
+}
